@@ -20,7 +20,7 @@ namespace Csharp.Extensions.UnitTests.Common
             action.Should().Throw<ArgumentNullException>();
         }
 
-        public  static IEnumerable<object[]> IncompleteMocks => new[]
+        public static IEnumerable<object[]> IncompleteMocks => new[]
         {
             new object[] { null, A.Fake<UserAuthProfile>() },
             new object[] { A.Fake<BearerOptions>(), null }

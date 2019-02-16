@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Wehkamp product onboarding team</Authors>
+    <Company>Wehkamp</Company>
+    <Product>Wehkamp product onboarding</Product>
+    <RepositoryUrl>https://github.com/wehkamp/blaze-product-onboarding-shared</RepositoryUrl>
+    <PackageTags>netcore, onboarding</PackageTags>
+    <Description>Common methods for product onboarding service</Description>
+    <Version>3.0.0</Version>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
+  </ItemGroup>
+
+</Project>
